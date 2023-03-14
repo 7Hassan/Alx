@@ -1,0 +1,60 @@
+cd < director > => change director
+cd $home => go to home
+ 
+ls => show listing of files
+ls /director => list in this director
+ls -a => show hideen files
+ls -l => list files in a long format
+
+file < file name >  => to determine file content
+ 
+less < file name >  => to show file content
+
+pwd => to know where i am
+
+cp < file|folder name > => copy files and directories
+cp -u *.html => copy all files end with html director
+cp file1 file2 => Copies contents of file1 into file2
+
+mv <file|folder name > => move or rename files and directories
+
+rm < file name > => remove files
+rm -r < folder name > => remove folder
+
+mkdir < folder name> => create folder
+
+touch < file name > => create file
+
+Pattern		 Match
+*		 all files
+*.html		 all files end with html
+g*		 all files satrts with g
+g*.html		 all files starts wiht g and end with .html
+[a,b,c]*	 all files stats with a,b,c
+[[:upper:]]* 	 all files starts with upper case
+*[![:lower:]]	 all files that doesn't end with lowercase
+
+cat <file name> => display file content
+cat < <file name> => read file
+
+echo "content" > <file name> => over write content in a file
+echo "content" >> <file name> => append content in a file
+
+wc <file name> => lines words carachters
+wc -l <file name> => lines
+ls -l | wc -l => number of files
+
+grep Patren => match a patren
+
+head <file name> => display first 10 lines of file
+tail <file name> => display last 10 lines of file
+
+sort <file name> => sort the file and not save
+sort -n <file name> => sort the file numircally and not save
+sort -0 <saved file> <inout file> => sort the file and save in other file
+ ls -l | grep -v cmd => get all files exclude cmd
+
+
+
+
+
