@@ -23,7 +23,7 @@ rm -r < folder name > => remove folder
 
 mkdir < folder name> => create folder
 
-touch < file name > => create filee
+touch < file name > => create file
 
 Pattern		 Match
 *		 all files
